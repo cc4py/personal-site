@@ -1,5 +1,16 @@
+a {
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EB455F;
+}
+
 body {
   width: 60%;
+  font-size: smaller;
   font-family: 'Merriweather', serif;
   color: #2B3467;
   margin: auto;
@@ -17,14 +28,30 @@ img {
   border-radius: 10%;
 }
 
+p {
+  line-height: 2;
+}
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   font-weight: normal;
+  margin: 0;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: thick;
+  width: 15%;
+  border-color: #2B3467;
+  margin: 100px auto;
+}
+
+.copyright {
+  font-size: 0.75rem;
 }
 
 .top {
@@ -35,26 +62,57 @@ h3 {
 
 .mid {
   background-color: #FCFFE7;
+  padding-bottom: 5px;
   position: relative;
+  height: auto;
 }
 
 .bottom {
-  background-color: #FCFFE7;
+  background-color: #66BFBF;
+  padding: 10px;
   position: relative;
 }
 
 .cloud-1 {
   position: relative;
   left: 300px;
-  bottom: 200px;
+  bottom: 250px;
 }
 
 .cloud-2 {
   position: relative;
   right: 300px;
-  bottom: 100px;
+  bottom: 00px;
+}
+
+.footer-link {
+  display: inline-flex;
 }
 
 .scene {
   text-align: center;
+}
+
+.skills {
+  height: auto;
+}
+
+.skill-img {
+  float: left;
+  height: auto;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.skill-img-r {
+  float: right;
+  height: auto;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  width: 67%;
 }
